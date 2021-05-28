@@ -1,0 +1,1 @@
+%Titulo: Teorema fundamental del calculo(6)%Nombre:Vanessa Cruz Huitrón %Grupo:3202%Fecha: Jueves 27 de Mayo del 2021pkg load symbolicclear clcsyms x;syms y;disp (" Teorema fundamental del calculo 6");fun=@(y)(y^2)/(y+2)integral=quad(fun,-1,1)ezplot('fun',[-1,1])grid()

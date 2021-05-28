@@ -1,0 +1,1 @@
+%Titulo: Teorema fundamental del calculo(9)%Nombre:Vanessa Cruz Huitrón %Grupo:3202%Fecha: Jueves 27 de Mayo del 2021pkg load symbolicclear clcsyms x;disp (" Teorema fundamental del calculo 9");fun=@(x) (x) / (sqrt(1 + 2*x^2))integral=quad(fun,0,2)ezplot(fun)grid()
